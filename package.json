@@ -1,0 +1,27 @@
+{
+  "name": "playwright-patent-date-calculator",
+  "version": "1.0.0",
+  "description": "Playwright automation to calculate date differences from patent information",
+  "main": "patentDateCalculator.js",
+  "scripts": {
+    "test": "node patentDateCalculator.js",
+    "install-browsers": "npx playwright install chromium"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "patent",
+    "date-calculator"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "volta": {
+    "node": "18.20.8"
+  }
+}
